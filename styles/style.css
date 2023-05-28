@@ -184,6 +184,9 @@ html {
 .wraped-form-textarea {
     margin-top: 20px;
     margin-left: 25%;
-    
 }
 
+.footer-nav {
+    padding-bottom: 80px;
+    margin-top: 40px;
+}

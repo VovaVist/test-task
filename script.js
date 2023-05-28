@@ -1,189 +1,189 @@
 const cardsBicyclesData = [
     {
         title: 'First bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/fourth-bike.png',
+        date: '04.01.2020',
     },
     {
         title: 'Second bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.02.2020',
+        imgUrl: 'assets/second-bike.png',
+        date: '01.14.2021',
     },
     {
         title: 'Third bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/seventh-bike.png',
+        date: '01.20.2022',
     },
     {
         title: 'Fourth bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/fourth-bike.png',
+        date: '04.05.2020',
     },
     {
         title: 'Fifth bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/sixth-bike.png',
+        date: '04.01.2019',
     },
     {
         title: 'First bike',
-        imgUrl: 'assets/first-bike.png',
+        imgUrl: 'assets/seventh-bike.png',
         date: '01.01.2020',
     },
     {
         title: 'Second bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/second-bike.png',
+        date: '01.06.2022',
     },
     {
         title: 'Third bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/fourth-bike.png',
+        date: '05.06.2023',
     },
     {
         title: 'Fourth bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/sixth-bike.png',
+        date: '05.24.2028',
     },
     {
         title: 'Fifth bike',
-        imgUrl: 'assets/first-bike.png',
-        date: '01.01.2020',
+        imgUrl: 'assets/seventh-bike.png',
+        date: '01.03.2015',
     }
 ]
 
 const cardsSkateboardsData = [
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'First skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '07.10.2020',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.02.2020',
+        title: 'Second skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '01.02.2017',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Third skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '01.01.2016',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fourth skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '01.01.2015',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fifth skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '04.04.2020',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'First skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '07.29.2023',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Second skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '10.25.2048',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Third skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '11.01.1970',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fourth skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '12.01.2021',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fifth skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '03.01.2022',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'First skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '07.04.2023',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Second skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '05.03.2023',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Third skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '04.07.2024',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fourth skate',
+        imgUrl: 'assets/second_skate.png',
+        date: '01.01.2025',
     },
     {
-        title: 'Skate',
-        imgUrl: 'assets/first_skate.jpg',
-        date: '01.01.2020',
+        title: 'Fifth skate',
+        imgUrl: 'assets/first_skate.png',
+        date: '01.01.2026',
     },
 ]
 
 const cardsScootersData = [
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'First scooter',
+        imgUrl: 'assets/first-scooter.png',
+        date: '04.01.2021',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Second scooter',
+        imgUrl: 'assets/second-scooter.png',
+        date: '06.01.2020',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Third scooter',
+        imgUrl: 'assets/third-scooter.png',
+        date: '08.01.2023',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Fourth scooter',
+        imgUrl: 'assets/third-scooter.png',
+        date: '04.21.2022',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Fifth scooter',
+        imgUrl: 'assets/second-scooter.png',
+        date: '09.10.2020',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'First scooter',
+        imgUrl: 'assets/first-scooter.png',
+        date: '12.11.2020',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Second scooter',
+        imgUrl: 'assets/second-scooter.png',
+        date: '12.12.2012',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Third scooter',
+        imgUrl: 'assets/third-scooter.png',
+        date: '09.07.2023',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Fourth scooter',
+        imgUrl:  'assets/first-scooter.png',
+        date: '01.01.2023',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'Fifth scooter',
+        imgUrl: 'assets/second-scooter.png',
+        date: '01.06.2022',
     },
     {
-        title: 'Scooter',
-        imgUrl: 'assets/first-scooter.jpg',
-        date: '01.01.2020',
+        title: 'First scooter',
+        imgUrl: 'assets/third-scooter.png',
+        date: '10.08.2024',
     },
 ]
 
@@ -206,7 +206,7 @@ function renderCards(data, selector) {
         const cardDate = templateCard.querySelector('.card-date');
         const cardButton = templateCard.querySelector('.card-btn');
         cardTitle.textContent = item.title;
-        cardDate.textContent = getDayInfo(item.date); // getDayInfo(item.date);
+        cardDate.textContent = getDayInfo(item.date); 
         cardImg.setAttribute('src', item.imgUrl);
         cardButton.addEventListener('click', function() {
             form.classList.add('active');
@@ -259,15 +259,34 @@ function scrollToTop() {
 
 function getDayInfo(currentDate) {
     const date = new Date(currentDate);
-    let days = [
-        'Воскресенье',
-        'Понедельник',
-        'Вторник',
-        'Среда',
-        'Четверг',
-        'Пятница',
-        'Суббота'
-      ];    
-    let dayOfTheWeek = date.getDay();
-    return(days[dayOfTheWeek]);
+    const days = [
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday'
+      ];  
+      
+    const monthes = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ]
+    const dayOfTheWeek = date.getDay();
+    const month = date.getMonth();
+    const year = date.getFullYear();
+    const weekNumber = Math.ceil(date.getDate() / 7)
+   
+    return(`${days[dayOfTheWeek]}, ${weekNumber} week of ${monthes[month]} ${year}`);
 }
