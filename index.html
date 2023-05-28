@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Sport shop</title>
+</head>
+<body class="body">
+    <header class="header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#bicycles" class="nav-link">Bicycles</a></li>
+                <li class="nav-item"><a href="#skateboards" class="nav-link">Skateboards</a></li>
+                <li class="nav-item"><a href="#scooters" class="nav-link">Scooters</a></li>
+            </ul>
+            <div class="wraped-change-theme-btn">
+                <button class="change-theme-btn">Light theme</button>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+            <form action="#" class="form" onsubmit="return false">
+                <div class="wraped-form-quantity-and-color">
+                <div>
+                    <label for="quantity" class="form-title">Amount of product</label>
+                    <p><input type="number" min="1" max="10" id="quantity" class="form-text form-quantity" value="1" required></p>
+                </div>
+                <div>
+                    <label for="color"  class="form-title">Choose color</label>
+                    <p class="form-text"><input type="radio" id="color" name="color" value="black" required> Black</p>
+                    <p class="form-text"><input type="radio" name="color" value="white" required > White</p>
+                    <p class="form-text"><input type="radio" name="color" value="blue" required > Blue</p>
+                    <p class="form-text"><input type="radio" name="color" value="brown" required> Brown</p>
+                 </div>
+                </div>
+                 <div class="wraped-form-textarea">
+                    <label for="comment"  class="form-title">Сomment on the order</label>
+                    <textarea  cols="30" rows="4" maxlength="2000" class="form-textarea"></textarea>
+                </div>
+                <div class="wraped-form-btns">
+                    <div><button type="submit"class="form-button order-btn">Order</button></div>
+                    <div><button type="reset" class="form-button close-btn">Close</button></div>
+                </div>
+            </form>
+        
+        <div class="upward" onClick="scrollToTop()">
+        </div>
+        <h1 class="category-title">Bicycles</h1>
+      <div class="container bicycles-block" id="bicycles">
+      </div>
+      <h2 class="category-title second-category-title">Skateboards</h2>
+      <div class="container skateboards-block" id="skateboards">
+      </div>
+      <h2 class="category-title third-category-title">Scooters</h2>
+      <div class="container scooters-block" id="scooters">
+      </div>
+      </div>
+    </main>
+    <footer class="footer">
+        <ul class="nav-list footer-nav">
+            <li class="nav-item"><a href="#bicycles" class="nav-link-footer">Bicycles</a></li>
+            <li class="nav-item"><a href="#skateboards" class="nav-link-footer first-nav-link-footer">Skateboards</a></li>
+            <li class="nav-item"><a href="#scooters" class="nav-link-footer second-nav-link-footer">Scooters</a></li>
+        </ul>
+    </footer>
+
+    <template id="template-card">
+            <div class="card">
+                <img src="" alt="image" class="card-img">
+                <p class="card-name"></p>
+                <div class="card-btn-wraper">
+                    <button class="card-btn">Buy</button>
+                </div>
+                <p class="card-date"></p>
+            </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
