@@ -14,7 +14,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .navigation {
@@ -39,12 +38,25 @@ html {
     font-size: 20px;
 }
 
+
 .nav-link {
     color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: rgb(192, 205, 207);
+    transition: 0.5s;
 }
 
 .nav-link-footer {
     color: #000000;
+    transition: 0.5s;
+}
+
+.nav-link-footer:hover {
+    color: rgb(192, 205, 207);
+    transition: 0.5s;
 }
 
 .category-title {
@@ -135,6 +147,7 @@ html {
     border-radius: 15px;
     visibility: hidden;
     opacity: 0;
+    transition: 0.5s;
 }
 
 .form.active {
@@ -203,6 +216,16 @@ html {
     font-family: 'Open Sans', sans-serif;
     margin-top: -25px;
     margin-left: 10px;
+}
+
+.change-theme-btn {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.change-theme-btn:hover {
+    color: rgb(192, 205, 207);
+    transition: 0.5s;
 }
 
 .dark {

@@ -298,7 +298,7 @@ function getDayInfo(currentDate) {
         'Saturday'
       ];  
       
-    const monthes = [
+    const months = [
         'January',
         'February',
         'March',
@@ -317,5 +317,5 @@ function getDayInfo(currentDate) {
     const year = date.getFullYear();
     const weekNumber = Math.ceil(date.getDate() / 7)
    
-    return(`${days[dayOfTheWeek]}, ${weekNumber} week of ${monthes[month]} ${year}`);
+    return(`${days[dayOfTheWeek]}, ${weekNumber} week of ${months[month]} ${year}`);
 }
