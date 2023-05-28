@@ -190,12 +190,42 @@ const cardsScootersData = [
 
 const buyButton = document.querySelector('.card-btn');
 const form = document.querySelector('.form');
+const formTextArea = document.querySelector('.form-textarea')
 const orderFormBtn = document.querySelector('.order-btn');
 const closeFormBtn = document.querySelector('.close-btn');
 const body = document.querySelector('.body');
+const changeThemeButton = document.querySelector('.change-theme-btn');
+const card = document.querySelector('.card');
+const main = document.querySelector('.main');
+const categoryTitle = document.querySelector('.category-title');
+const secondCategoryTitle = document.querySelector('.second-category-title');
+const thirdCategoryTitle = document.querySelector('.third-category-title');
+const formQuantity = document.querySelector('.form-quantity');
+const navLinkFooter = document.querySelector('.nav-link-footer')
+const secondNavLinkFooter = document.querySelector('.first-nav-link-footer')
+const thirdNavLinkFooter = document.querySelector('.second-nav-link-footer')
 
+changeThemeButton.addEventListener('click', function() {
+    body.classList.toggle('dark');
+    categoryTitle.classList.toggle('dark-text');
+    secondCategoryTitle.classList.toggle('dark-text');
+    thirdCategoryTitle.classList.toggle('dark-text');
+    form.classList.toggle('dark');
+    form.classList.toggle('dark-text');
+    orderFormBtn.classList.toggle('light-text');
+    closeFormBtn.classList.toggle('light-text');
+    formQuantity.classList.toggle('light-text');
+    formTextArea.classList.toggle('light-text');
+    navLinkFooter.classList.toggle('dark-text');
+    secondNavLinkFooter.classList.toggle('dark-text');
+    thirdNavLinkFooter.classList.toggle('dark-text');
 
-
+    if (body.classList.contains('dark')) {
+        changeThemeButton.innerText = 'Dark theme';
+    } else {
+        changeThemeButton.innerText = 'Light theme';
+    }
+});
 
 function renderCards(data, selector) {
     const container = document.querySelector(selector);
@@ -231,7 +261,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
 closeFormBtn.addEventListener('click', function() {
     form.classList.remove('active');
 })
@@ -246,14 +275,14 @@ window.addEventListener('scroll', function() {
     scroll.classList.toggle('active', window.scrollY > 300);
 })
 
+
+
 function scrollToTop() {
     window.scrollTo ({
         top: 0,
         behavior: 'smooth'
     });
 };
-
-
 
 
 
